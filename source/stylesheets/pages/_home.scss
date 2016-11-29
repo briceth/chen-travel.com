@@ -124,18 +124,24 @@ p {
         left: 50%;
         width: 700px;
         height: 418px;
-        background: url(../images/img_macbook01.png) no-repeat top left;
+        background: url(../images/iphone1.png) no-repeat top left;
         transform: translate(-80%, -40%);
     }
 
 #slide02 .img {
-  background-image: url(../images/img_macbook02.png);}
+  background-image: url(../images/iphone1.png);
+
+}
 
 #slide03 .img {
-  background-image: url(../images/img_macbook01.png);}
+  background-image: url(../images/iphone1.png);
+
+}
 
 #slide04 .img {
-  background-image: url(../images/img_macbook02.png);}
+  background-image: url(../images/iphone1.png);
+
+}
 
 #slide02 .pin-wrapper,
 #slide03 .pin-wrapper,

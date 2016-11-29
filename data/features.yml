@@ -1,0 +1,18 @@
+geo_tracking:
+  title: Geo tracking
+  sentence_1: Curabitur vulputate, ligula lacinia scelerisque tempor, lacus lacus ornare ante, ac egestas.
+  image: iphone1.png
+  png: lock-black.png
+  logo: tracking.png
+weight:
+  title: Weighing
+  sentence_1: roin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus.
+  image: iphone2.png
+  png: lock-crochet.png
+  logo: weight.png
+Remote_opening:
+  title: Remote opening
+  sentence_1: Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in.
+  image: iphone3.png
+  png: lock-red.png
+  logo: lock.png
