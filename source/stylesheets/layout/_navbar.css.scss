@@ -40,11 +40,11 @@
 
 /* Navbar standard link */
 .navbar-wagon-link {
-  color: #000080;
+  color: $dark-blue;
   font-size: 16px;
 }
 .navbar-wagon-link:hover {
-  color: #da552f;
+  color: $red;
   text-decoration: none;
 }
 
@@ -54,13 +54,13 @@
   padding: 0 20px;
   border-radius: 20em;
   line-height: 40px;
-  background-color: $blue;
+  background-color: $dark-blue;
   color: white;
   font-size: 14px;
   border: 2px solid #D23333;
   &:hover {
     color: white;
-    background: $blue;
+    background: $dark-blue;
     border-color: #ac2626;
   }
 }
