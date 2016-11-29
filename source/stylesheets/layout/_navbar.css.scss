@@ -5,9 +5,12 @@
   transition: all 0.3s ease;
   display: flex;
   height: 85px;
+  width: 100%;
   padding: 0px 30px;
   align-items: center;
   justify-content: space-between;
+  position: fixed;
+  z-index: 99;
 }
 
 /* Optional class to fix the navbar on top */
