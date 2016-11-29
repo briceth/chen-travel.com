@@ -57,14 +57,16 @@
   padding: 0 20px;
   border-radius: 20em;
   line-height: 40px;
-  background-color: $dark-blue;
+  // background-color: $dark-blue;
   color: white;
   font-size: 14px;
   border: 2px solid #D23333;
   &:hover {
     color: white;
-    background: $dark-blue;
+    // background: $dark-blue;
     border-color: #ac2626;
+    border: 4px solid #D23333;
+    // transition: all 0.3s ease;
   }
 }
 
