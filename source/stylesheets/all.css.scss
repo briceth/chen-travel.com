@@ -8,13 +8,6 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
-
-// Our CSS
-// @import "layout/*";
-// @import "components/*";
-// @import "pages/*";
-// @import "vendor/*";
-
 @import "layout/footer";
 @import "components/lock";
 
@@ -23,3 +16,6 @@
 @import "pages/second_page";
 @import "pages/third_page";
 @import "pages/fourth_page";
+
+@import "pages/sixth_page";
+@import "pages/seventh_page";
