@@ -39,11 +39,39 @@
 
   <div class="container iphone">
     <div class="iphone-icone">
-      <%= image_tag 'iphone1.png', width: "500px", class: "iphone-png" %>
-      <%= image_tag 'iphone2.png', width: "500px", class: "iphone-png" %>
-      <%= image_tag 'iphone3.png', width: "500px", class: "iphone-png" %>
+      <div class="col-xs-12 col-sm-3">
+        <%= image_tag 'iphone1.png', width: "600", class: "iphone-png" %>
+        <%#= image_tag 'padlock.png', width: '15px', class: "icone", id: "padlock" %>
+      </div>
+      <div class="col-xs-12 col-sm-3">
+        <%= image_tag 'iphone2.png', width: "600", class: "iphone-png" %>
+      </div>
+      <div class="col-xs-12 col-sm-3">
+        <%= image_tag 'iphone3.png', width: "600", class: "iphone-png" %>
+      </div>
     </div>
   </div>
+
+  <div class="container padlock-view">
+    <div class="padlock-icone">
+      <div class="col-xs-12 col-sm-3">
+         <%= image_tag 'lock-brun.png', width: "250px", id:"lock-brun", class: "animated bounceInLeft" %>
+
+      </div>
+      <div class="col-xs-12 col-sm-3">
+    <%= image_tag 'lock-black.png', width: "250px", id:"lock-black", class: "animated bounceInLeft" %>
+
+      </div>
+      <div class="col-xs-12 col-sm-3">
+    <%= image_tag 'lock-red.png', width: "250px", id:"lock-red", class: "animated bounceInLeft" %>
+      </div>
+      <div class="col-xs-12 col-sm-3">
+    <%= image_tag 'lock-white.png', width: "250px", id:"lock-white", class: "animated bounceInLeft" %>
+
+      </div>
+    </div>
+  </div>
+
 
 
 
