@@ -10,12 +10,14 @@
 
 
 // Our CSS
-@import "layout/*";
-@import "components/*";
-@import "pages/*";
-@import "vendor/*";
+// @import "layout/*";
+// @import "components/*";
+// @import "pages/*";
+// @import "vendor/*";
 
 @import "layout/footer";
 @import "components/lock";
 
 @import "layout/scrolling-nav";
+@import "pages/first_page";
+@import "pages/second_page";

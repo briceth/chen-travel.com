@@ -1,54 +1,79 @@
-<div id="main" class="main-container">
-  <article id="slide00" class="slide">
-    <%= image_tag 'lock-brun.png', width: "250px", id:"lock-brun", class: "animated bounceInLeft lock" %>
-    <%= image_tag 'lock-white.png', width: "250px", id:"lock-white", class: "animated bounceInLeft lock" %>
-    <%= image_tag 'lock-black.png', width: "250px", id:"lock-black", class: "animated bounceInLeft lock" %>
-    <%= image_tag 'lock-red.png', width: "250px", id:"lock-red", class: "animated bounceInLeft lock" %>
-      <div class="wrapper">
-        <h1>CHEN</h1>
-        <p>CHEN is a company aiming to develop connected objects in order to serve a target expressing a need.</p>
+<div class="wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="first_page">
+        <div class="col-xs-12 col-sm-6">
+          <div class="locki">
+          <%= image_tag 'lock-white.png', width: "350px", id:"lock-white", class: "animated bounceInLeft" %>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6">
+          <div class=" locki sentence">
+            <h1>CHEN</h1>
+            <p>The first connected padlock fot luggage</p>
+            <p>Take care of your suitcase</p>
+            <h3>Travel smartly</h3>
+          </div>
+        </div>
       </div>
-  </article>
+    </div>
+    <div class="row">
+      <div class="second_page">
+        <div class="col-xs-12 col-sm-6 col-sm-offset-4">
+        <%= image_tag 'lock-red.png', width: "350px", class: "animated bounceInLeft" %>
+        </div>
 
-  <%= partial "carousel" %>
+        <!-- <div class="icone_page"> -->
+          <%= image_tag 'weight.png', width: '70px', class: "icone", id: "weight" %>
+          <%= image_tag 'tracking.png', width: '70px', class: "icone", id: "tracking" %>
+          <%= image_tag 'padlock.png', width: '70px', class: "icone", id: "padlock" %>
+          <%= image_tag 'Battery.png', width: '70px', class: "icone", id: "battery" %>
 
-  <article id="slide01" class="slide" id="contact">
+        <!-- </div> -->
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<!--
       <div class="pin-wrapper">
           <div class="img">
-            <%= image_tag 'iphone1.png', width: "500px" %>
           </div>
           <div class="wrapper">
               <h1>Geo tracking</h1>
               <p>Curabitur vulputate, ligula lacinia scelerisque tempor, lacus lacus ornare ante, ac egestas.</p>
           </div>
       </div>
-  </article>
-  <article id="slide02" class="slide">
+
+
       <div class="pin-wrapper">
           <div class="img">
-            <%= image_tag 'iphone2.png', width: "500px" %>
+
           </div>
           <div class="wrapper">
               <h1>Weighing</h1>
               <p>Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus.</p>
           </div>
       </div>
-  </article>
-  <article id="slide03" class="slide">
+
+
       <div class="pin-wrapper">
           <div class="img">
-            <%= image_tag 'iphone3.png', width: "500px" %>
           </div>
           <div class="wrapper">
               <h1>Remote opening</h1>
               <p>Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in.</p>
           </div>
       </div>
-  </article>
-  <article id="slide05" class="slide">
+
       <div class="wrapper">
           <h1>Mots du directeur</h1>
           <p>Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor.</p>
       </div>
-  </article>
-</div>
+
+
+ -->

@@ -1,0 +1,23 @@
+.first_page {
+  min-height: 100vh;
+  display: flex;
+}
+.locki {
+  height: 650px;
+}
+.sentence {
+  position: absolute;
+  h1 {
+  position: relative;
+  top: 170px;
+  }
+  p {
+  position: relative;
+  top:190px;
+  }
+  h3{
+    position:relative;
+    top:255px;
+  }
+}
+
