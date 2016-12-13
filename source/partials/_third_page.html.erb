@@ -1,12 +1,24 @@
 <div class="iphone-icone">
-      <div class="col-xs-12 col-sm-3">
-        <%= image_tag 'iphone1.png', width: "600", class: "iphone-png" %>
-        <%#= image_tag 'padlock.png', width: '15px', class: "icone", id: "padlock" %>
-      </div>
-      <div class="col-xs-12 col-sm-3">
-        <%= image_tag 'iphone2.png', width: "600", class: "iphone-png" %>
-      </div>
-      <div class="col-xs-12 col-sm-3">
-        <%= image_tag 'iphone3.png', width: "600", class: "iphone-png" %>
-      </div>
+  <div class="col-xs-12 col-sm-3">
+    <%= image_tag 'iphone1.png', width: "600", class: "iphone-png" %>
+    <div class="padlock">
+        <%= image_tag 'padlock.png', width: '50px', class: "icone" %>
     </div>
+  </div>
+
+  <div class="col-xs-12 col-sm-3">
+    <div class="padlock">
+      <%= image_tag 'iphone2.png', width: "600", class: "iphone-png" %>
+    </div>
+
+    <%= image_tag 'tracking.png', width: '50px', class: "icone" %>
+
+  </div>
+  <div class="col-xs-12 col-sm-3">
+    <div class="padlock">
+      <%= image_tag 'iphone3.png', width: "600", class: "iphone-png" %>
+    </div>
+
+    <%= image_tag 'weight.png', width: '50px', class: "icone" %>
+  </div>
+</div>
