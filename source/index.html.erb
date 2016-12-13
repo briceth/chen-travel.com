@@ -1,73 +1,43 @@
 <div class="wrapper">
   <div class="container">
     <div class="row">
-      <div class="first_page">
-        <div class="col-xs-12 col-sm-6">
-          <div class="locki">
-          <%= image_tag 'lock-white.png', width: "350px", id:"lock-white", class: "animated bounceInLeft" %>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-6">
-          <div class=" locki sentence">
-            <h1>CHEN</h1>
-            <p>The first connected padlock fot luggage</p>
-            <p>Take care of your suitcase</p>
-            <h3>Travel smartly</h3>
-          </div>
-        </div>
-      </div>
+
+      <%= partial "partials/first_page" %>
+
     </div>
   </div>
 
 
   <div class="container second_page">
-    <div class="row second_page">
-          <%#= image_tag 'weight.png', width: '70px', class: "icone", id: "weight" %>
-          <%#= image_tag 'tracking.png', width: '70px', class: "icone", id: "tracking" %>
-          <%#= image_tag 'padlock.png', width: '70px', class: "icone", id: "padlock" %>
-          <%#= image_tag 'Battery.png', width: '70px', class: "icone", id: "battery" %>
-      <div class="second">
-        <div class="col-xs-12 col-sm-6 col-sm-offset-4">
-        <%= image_tag 'lock-red.png', width: "350px", class: "animated bounceInLeft" %>
-        </div>
 
-      </div>
-    </div>
+    <%= partial "partials/second_page" %>
+
   </div>
 
 
 
   <div class="container iphone">
-    <div class="iphone-icone">
-      <div class="col-xs-12 col-sm-3">
-        <%= image_tag 'iphone1.png', width: "600", class: "iphone-png" %>
-        <%#= image_tag 'padlock.png', width: '15px', class: "icone", id: "padlock" %>
-      </div>
-      <div class="col-xs-12 col-sm-3">
-        <%= image_tag 'iphone2.png', width: "600", class: "iphone-png" %>
-      </div>
-      <div class="col-xs-12 col-sm-3">
-        <%= image_tag 'iphone3.png', width: "600", class: "iphone-png" %>
-      </div>
-    </div>
+
+  <%= partial "partials/third_page" %>
+
   </div>
 
   <div class="container padlock-view">
     <div class="padlock-icone">
       <div class="col-xs-12 col-sm-3">
-         <%= image_tag 'lock-brun.png', width: "250px", id:"lock-brun", class: "animated bounceInLeft" %>
+         <%= image_tag 'lock-brun.png', width: "250px", id:"lock-brun", class: "animated icones" %>
         <p>Brown edition</p>
       </div>
       <div class="col-xs-12 col-sm-3">
-          <%= image_tag 'lock-black.png', width: "250px", id:"lock-black", class: "animated bounceInLeft" %>
+          <%= image_tag 'lock-black.png', width: "250px", id:"lock-black", class: "animated icones" %>
         <p>Black edition</p>
       </div>
       <div class="col-xs-12 col-sm-3">
-    <%= image_tag 'lock-red.png', width: "250px", id:"lock-red", class: "animated bounceInLeft" %>
+    <%= image_tag 'lock-red.png', width: "250px", id:"lock-red", class: "animated icones" %>
         <p>Red edition</p>
       </div>
       <div class="col-xs-12 col-sm-3">
-    <%= image_tag 'lock-white.png', width: "250px", id:"lock-white", class: "animated bounceInLeft" %>
+    <%= image_tag 'lock-white.png', width: "250px", id:"lock-white", class: "animated icones" %>
           <p>White edition</p>
       </div>
     </div>
