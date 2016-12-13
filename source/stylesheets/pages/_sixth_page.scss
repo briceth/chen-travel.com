@@ -6,6 +6,12 @@
   border-radius: 50%;
   width: 366px;
   height: 340px;
+  &:hover {
+    box-shadow: 0 12px 66px rgba(0, 0, 0, 0.2);
+    transition: ease all 0.5s;
+    transform: perspective(500px) translateZ(5px);
+    -webkit-transform: perspective(500px) translateZ(5px);
+  }
 }
 .profile-component {
   padding-left: 70px;
