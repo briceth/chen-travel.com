@@ -73,8 +73,17 @@
   bottom: 45px;
 }
 
-
-
+.features-icones {
+  animation: animation5 1.5s ease 1 0s;
+  @keyframes animation5 {
+    0% {
+      transform: translateY(-50px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+}
 
 
 
