@@ -7,23 +7,74 @@
   position:absolute;
   border: 1px solid black;
   border-radius: 50%;
-  padding: 15px;
-  margin: 15px;
+  padding: 20px;
+  height: 125px;
+  width: 125px;
 }
 
 #weight {
+  right: 80px;
+  top: 80px;
+  animation: animation1 2.5s ease 1 0s;
+
+  @keyframes animation1 {
+    0% {transform: translateX(-400px) translateY(180px);}
+    100% {transform: translateX(0px) translateY(0px);}
+  }
+}
+#feature-weight {
+  position:absolute;
   right: 100px;
-  top: 100px;
+  top: 210px;
 }
 #tracking {
-  left: 100px;
-  top: 100px;
+  left: 80px;
+  top: 80px;
+  animation: animation4 2.5s ease 1 0s;
+
+  @keyframes animation4 {
+    0% {transform: translateX(400px) translateY(180px);}
+    100% {transform: translateX(0px) translateY(0px);}
+  }
+}
+#feature-tracking {
+  position:absolute;
+  left: 90px;
+  top: 210px;
 }
 #padlock {
+  right: 80px;
+  bottom: 80px;
+  animation: animation2 2.5s ease 1 0s;
+
+  @keyframes animation2 {
+    0% {transform: translateX(-400px) translateY(-180px);}
+    100% {transform: translateX(0px) translateY(0px);}
+  }
+}
+#feature-padlock {
+  position:absolute;
   right: 100px;
-  bottom: 100px;
+  bottom: 45px;
 }
 #battery {
-  left: 100px;
-  bottom: 100px;
+  left: 80px;
+  bottom: 80px;
+  animation: animation3 2.5s ease 1 0s;
+
+  @keyframes animation3 {
+    0% {transform: translateX(400px) translateY(-180px);}
+    100% {transform: translateX(0px) translateY(0px);}
+  }
 }
+#feature-battery {
+  position:absolute;
+  left: 105px;
+  bottom: 45px;
+}
+
+
+
+
+
+
