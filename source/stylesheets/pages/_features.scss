@@ -1,32 +1,29 @@
 
 .second_page {
   min-height: 100vh;
-  // position:absolute;
-}
-.second {
-  min-height: 100vh;
-}
-.icone_page {
-  position:absolute;
-  min-height: 100vh;
+  position:relative;
 }
 .icone {
-  position:relative;
+  position:absolute;
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 15px;
+  margin: 15px;
 }
 
 #weight {
-  right: 15px;
-  bottom: 40px;
+  right: 100px;
+  top: 100px;
 }
 #tracking {
-  left: 15px;
-  bottom: 40px;
+  left: 100px;
+  top: 100px;
 }
 #padlock {
-  right: 15px;
-  bottom: 40px;
+  right: 100px;
+  bottom: 100px;
 }
 #battery {
-  left: 15px;
-  bottom: 40px;
+  left: 100px;
+  bottom: 100px;
 }
