@@ -87,3 +87,69 @@
 
 
 
+@media(min-width: 320px){
+  .second {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 385px;
+    padding-left: 3em;
+    padding-top: 16em;
+  }
+  #padlock-red {
+    width: 250px;
+  }
+  .icone {
+    width: 70px;
+    height: 70px;
+  }
+  .class {
+    font-size: 15px;
+  }
+  #feature-battery {
+    left: 80px;
+    bottom: 40px;
+  }
+  #feature-padlock {
+    right: 80px;
+    bottom: 40px;
+  }
+  #feature-tracking {
+    top: 160px;
+    left: 50px;
+  }
+  #feature-weight {
+    top: 160px;
+    right: 75px;
+  }
+}
+
+
+
+
+
+@media(min-width: 768px){
+  #padlock-red {
+    width: 350px;
+  }
+  .icone {
+    height: 125px;
+    width: 125px;
+  }
+   #feature-battery {
+    left: 105px;
+    bottom: 45px;
+  }
+  #feature-padlock {
+    right: 100px;
+    bottom: 45px;
+  }
+  #feature-tracking {
+    left: 90px;
+    top: 210px
+  }
+  #feature-weight {
+    right: 100px;
+    top: 210px;
+  }
+}

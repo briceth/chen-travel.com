@@ -25,3 +25,39 @@ body h1, h2, h3, p {
   }
 }
 
+@media(min-width: 320px){
+  .png-white {
+    display: none;
+  }
+  .sentence {
+    opacity: 1;
+    h1 {
+    top: 100px;
+    }
+    p {
+    top:130px;
+    }
+    h3{
+    top:170px;
+    }
+  }
+}
+@media(min-width: 768px){
+  .png-white {
+    display: block;
+  }
+  .sentence {
+    opacity: 1;
+  }
+}
+// @media(min-width: 992px){
+//   #chatroom {
+//     width: 100%;
+//     padding-left: 5em;
+//   }
+// }
+// @media(min-width: 1200px){
+//   #chatroom {
+//     width: 100%;
+//   }
+// }

@@ -14,3 +14,9 @@
 .padlock {
   padding-left: 20px;
 }
+
+@media(min-width: 320px){
+  .iphone-png{
+    display: none;
+  }
+}
