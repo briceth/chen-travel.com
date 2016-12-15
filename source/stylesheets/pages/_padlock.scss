@@ -19,6 +19,9 @@
   .button-order {
     margin-bottom: 6em;
   }
+  .padlock-icone {
+    padding-left: 3em;
+  }
 }
 @media(min-width: 768px){
   .btn-order {
@@ -28,5 +31,8 @@
   }
   .button-order {
     margin-bottom: 0;
+  }
+  .padlock-icone {
+    padding-left: 0;
   }
 }
