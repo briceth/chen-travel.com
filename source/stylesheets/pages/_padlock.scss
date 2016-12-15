@@ -9,3 +9,24 @@
 .button-order {
   padding-top: 50px;
 }
+
+@media(min-width: 320px){
+  .btn-order {
+    padding: 11px 25px;
+    font-size: 19px;
+    margin-left: 3.5em;
+  }
+  .button-order {
+    margin-bottom: 6em;
+  }
+}
+@media(min-width: 768px){
+  .btn-order {
+    padding: 21px 35px;
+    font-size: 29px;
+    margin-left: 3em;
+  }
+  .button-order {
+    margin-bottom: 0;
+  }
+}

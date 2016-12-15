@@ -59,3 +59,21 @@
 .card-link:hover{
   opacity: 0.1;
 }
+
+
+@media(min-width: 320px){
+  .profile-component {
+    padding-left: 50px;
+  }
+  .profile-picture {
+    width: 266px;
+    height: 240px;
+  }
+}
+
+@media(min-width: 768px){
+  .profile-picture {
+    width: 366px;
+    height: 340px;
+  }
+}
