@@ -4,8 +4,11 @@
 // Google fonts
 @import url('https://fonts.googleapis.com/css?family=Orbitron');
 @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
-$base-font: "font-family: 'Shadows Into Light', cursive";
-$header-font: "font-family: 'Orbitron', sans-serif";
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+$base-font: "font-family: 'Montserrat', sans-serif;";
+$header-font: "font-family: 'Montserrat', sans-serif;";
 
 // Local fonts (uncomment following lines)
 // @font-face {
