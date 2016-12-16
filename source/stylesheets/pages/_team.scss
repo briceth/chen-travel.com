@@ -4,8 +4,6 @@
 .profile-picture {
   box-shadow: 0 12px 66px rgba(0, 0, 0, 0.1);
   border-radius: 50%;
-  width: 366px;
-  height: 340px;
   &:hover {
     box-shadow: 0 12px 66px rgba(0, 0, 0, 0.2);
     transition: ease all 0.5s;
@@ -73,7 +71,7 @@
 
 @media(min-width: 768px){
   .profile-picture {
-    width: 366px;
-    height: 340px;
+    width: 300px;
+    height: 300px;
   }
 }
