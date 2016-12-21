@@ -1,19 +1,10 @@
 .profile {
   min-height: 100vh;
 }
-.profile-picture {
-  box-shadow: 0 12px 66px rgba(0, 0, 0, 0.1);
-  border-radius: 50%;
-  &:hover {
-    box-shadow: 0 12px 66px rgba(0, 0, 0, 0.15);
-    transition: ease all 0.5s;
-    transform: perspective(500px) translateZ(3px);
-    -webkit-transform: perspective(500px) translateZ(3px);
-  }
-}
 .profile-component {
-  padding-left: 70px;
+  height: 744px;
 }
+
 .card {
   margin-bottom: 43px;
   height: 284px;
@@ -23,6 +14,13 @@
   background-size: cover !important;
   color: white;
   position: relative;
+  box-shadow: 0 12px 66px rgba(0, 0, 0, 0.1);
+  &:hover {
+    box-shadow: 0 12px 66px rgba(0, 0, 0, 0.15);
+    transition: ease all 0.5s;
+    transform: perspective(500px) translateZ(3px);
+    -webkit-transform: perspective(500px) translateZ(3px);
+  }
 }
 .card-description {
   position: absolute;
@@ -38,7 +36,7 @@
 
 @media(min-width: 320px){
   .profile-component {
-    padding-left: 50px;
+    padding-left: 160px;
   }
   .profile-picture {
     width: 266px;

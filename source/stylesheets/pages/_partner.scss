@@ -1,5 +1,14 @@
 .partner {
-  min-height: 60vh;
+  min-height: 100vh;
+}
+.partner-component {
+  padding-top: 90px;
+  h3 {
+    padding-left: 60px;
+  }
+}
+.partner-picture {
+  padding-top: 248px;
 }
 
 @media(min-width: 320px){
