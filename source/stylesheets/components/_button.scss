@@ -1,15 +1,33 @@
-.btn-order {
-  color: #999999;
-  border: 1px solid #999999;
-  padding: 21px 35px;
-  font-size: 29px;
-  border-radius: 50px;
-  font-weight: lighter;
-  opacity: 0.6;
-  text-decoration: none;
+.buy-button {
+  border: 2px solid black;
+  background-color:white;
+  padding: 24px 100px;
+  border-radius: 20px;
 }
-.btn-order:hover {
+
+.content {
+  color: red;
+  font-size: 29px;
+  padding-top: 39px;
+  position: absolute;
+  -webkit-transition: top 0.3s;
+  transition: all 0.5s;
+
+}
+.top {
+  top: 0px;
+  left: 64px;
+}
+.button-order:hover .top {
+  top:-30px;
+  opacity: 0;
+}
+.bottom {
+  bottom: 30px;
+  left: 80px;
+  opacity: 0;
+}
+.button-order:hover .bottom {
+  top:0px;
   opacity: 1;
-  text-decoration: none;
-  color: #999999;
 }
