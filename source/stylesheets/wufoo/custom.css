@@ -1,10 +1,19 @@
-/* - - - - - - - - - - - - - - - - - - - - -
-
- Title : 
- Author : 
- URL : http://
-
- Last Updated : 
-
-- - - - - - - - - - - - - - - - - - - - - */
-
+.field {
+  border-radius: 5px;
+  height: 30px;
+  width: 100%;
+      border-top: 0px solid #7c7c7c;
+      border-left: 0px solid #c3c3c3;
+      border-right: 0px solid #c3c3c3;
+      border-bottom: 0px solid #ddd;
+      background: #fff url(/images/fieldbg.gif) repeat-x top;
+}
+#saveForm {
+  height: 51px;
+  width: 117px;
+  border-radius: 11px;
+  color: white;
+  background-color: blue;
+  font-size: 20px;
+  border:none;
+}
