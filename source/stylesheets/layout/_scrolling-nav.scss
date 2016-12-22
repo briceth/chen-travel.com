@@ -15,21 +15,28 @@ html {
 }
 .navbar {
   box-shadow: 0 5px 0px rgba(17, 45, 78, 0.1);
+  // font-size: 20px;
 }
 
 .container-navbar {
   display: flex;
-  justify-content: space-between;
+  // justify-content: space-between;
   padding-left: 40px;
+  padding-right: 79px;
 }
 .collapse {
-  flex: 0 0 44%;
+  // flex: 0 0 44%;
+}
+.navbar-collapse {
+  margin-right: 46%;
+  padding-left: 5%;
 }
 
-
-#links > li {
-  color: $dark-blue;
-  font-size: 16px;
+ul > li {
+  font-size: 20px;
+}
+.navbar-wagon-item {
+  font-size: 20px;
 }
 
 @media(min-width:767px) {
@@ -43,6 +50,25 @@ html {
     .top-nav-collapse {
         padding: 0;
     }
+    .navbar-fixed-top .navbar-collapse {
+      padding-left: 6%;
+    }
+}
+
+@media(max-width:500px){
+  .navbar-header {
+    position: absolute;
+  }
+  button {
+    position: relative;
+    left: 277px;
+  }
+  ul > li {
+    font-size: 15px;
+  }
+  .navbar-wagon-item {
+    font-size: 15px;
+  }
 }
 
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.

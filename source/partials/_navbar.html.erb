@@ -1,37 +1,35 @@
 <!-- Navigation -->
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container-navbar">
-    <%# link_to "/", class: "navbar-wagon-brand" do %>
-      <%#= image_tag "Logo_Noir.png" %>
-    <%# end %>
+    <% link_to "/", class: "navbar-wagon-brand" do %>
+      <%= image_tag "Logo_Noir.png", width:"45px" %>
+    <% end %>
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+      <ul class="nav navbar-nav">
+        <li>
+          <%= link_to "Chen", "#", class:"page-scroll slide-link" %>
+        </li>
+        <li>
+          <%= link_to "Contact", "#", class:"page-scroll slide-link" %>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/CHEN-619447138205772/?fref=ts" class="page-scroll slide-link">Suivez-nous</a>
+          <%#= link_to "Suivez-nous", "https://www.facebook.com/CHEN-619447138205772/?fref=ts", class: "page-scroll slide-link" %>
+        </li>
+      </ul>
+    </div>
     <div class="navbar-header page-scroll">
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse navbar-ex1-collapse">
           <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
           <ul class="nav navbar-nav">
-              <li class="hidden">
-                  <a class="page-scroll slide-link" href="#page-top"></a>
-              </li>
               <li>
-                  <a class="page-scroll slide-link" href="#about">Chen</a>
-              </li>
-              <li>
-                  <a class="page-scroll slide-link" href="#services">Contact</a>
-              </li>
-              <li>
-                  <%= link_to "Suivez-nous", "https://www.facebook.com/", class: "page-scroll slide-link" %>
-                  <!-- <a class="page-scroll slide-link" href="">Suivez-nous</a> -->
-              </li>
-              <li>
-                <!-- <a href="" class="navbar-wagon-item navbar-wagon-button btn">Pre-order</a> -->
-                <!-- Button trigger modal -->
                 <a href="" class="navbar-wagon-item navbar-wagon-button btn" data-toggle="modal" data-target="#myModal">
                 Pre-order
               </a>
               </li>
           </ul>
       </div>
-
 
      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
             <span class="sr-only">Toggle navigation</span>
@@ -40,7 +38,5 @@
             <span class="icon-bar"></span>
         </button>
       </div>
-
-
   </div>
 </nav>
