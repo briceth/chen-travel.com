@@ -2,6 +2,19 @@ body h1, h2, h3, p {
   font-family: 'Montserrat', sans-serif;
 
 }
+.sentence > h1 {
+  -webkit-animation-duration: 1.7s;
+  -webkit-animation-delay: 0.6s;
+}
+.sentence > p {
+  -webkit-animation-duration: 1.7s;
+  -webkit-animation-delay: 0.8s;
+}
+.sentence > h3 {
+  -webkit-animation-duration: 1.7s;
+  -webkit-animation-delay: 01.1s;
+}
+
 .first_page {
   min-height: 100vh;
   margin-top: 99px;
