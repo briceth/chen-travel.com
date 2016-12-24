@@ -21,9 +21,13 @@
     width: 300px;
   }
   .partner {
-    padding-left: 3em;
+    padding-left: 2em;
     padding-top: 7em;
+    h2 {
+      padding-left: 90px;
+    }
   }
+
 }
 
 @media(min-width: 768px){
@@ -39,5 +43,8 @@
   .partner {
     padding-left: 0;
     padding-top: 1em;
+    h2 {
+      padding-left: 120px;
+    }
   }
 }
