@@ -2,50 +2,24 @@
   margin-left: 4%;
 }
 .buy-button {
-  border: 2px solid;
+  border: 2px solid #2A528A;
   padding: 12px;
   padding-right: 2px;
   border-radius: 3px;
   background-color: white;
   color: #2A528A;
   &:hover {
-    background-color: #2A528A;
     color: white;
     text-decoration: none;
+    background-color: #F35B25;
+    border: 2px solid #F35B25;
     transition: background-color 0.5s ease;
     border-radius: 3px;
   }
 }
-// .buy-button {
-//   border: 4px solid #4a4949;
-//   background-color: white;
-//   padding: 16px 90px;
-//   border-radius: 20px;
-// }
+@media(min-width: 320px){
+  .buy-button {
+    margin-left: 19%;
+  }
+}
 
-// .content {
-//   color: red;
-//   font-size: 29px;
-//   padding-top: 39px;
-//   position: absolute;
-//   -webkit-transition: top 0.3s;
-//   transition: all 0.5s;
-
-// }
-// .top {
-//   top: 0px;
-//   left: 47px;
-// }
-// .button-order:hover .top {
-//   top:-30px;
-//   opacity: 0;
-// }
-// .bottom {
-//   bottom: 30px;
-//   left: 80px;
-//   opacity: 0;
-// }
-// .button-order:hover .bottom {
-//   top:0px;
-//   opacity: 1;
-// }
