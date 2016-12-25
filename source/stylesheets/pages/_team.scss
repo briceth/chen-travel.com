@@ -58,6 +58,16 @@
   }
 }
 
+@media(min-width: 700px){
+  #alban {
+  padding-left: 0%;
+}
+
+  #brice {
+    padding-left: 0%;
+  }
+}
+
 @media(min-width: 768px){
   .profile-picture {
     width: 300px;
@@ -70,17 +80,20 @@
   .profile-component {
     padding-left: 7%;
  }
- #alban {
-  padding-left: 30%;
-}
-
-#brice {
-  padding-left: 30%;
-}
  #vladimir {
     padding-left: 0%;
   }
   #patrick {
     padding-left: 0%;
+  }
+}
+
+@media(min-width: 990px){
+   #alban {
+    padding-left: 30%;
+  }
+
+  #brice {
+    padding-left: 30%;
   }
 }
