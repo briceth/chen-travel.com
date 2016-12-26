@@ -95,11 +95,6 @@
 
 @media(min-width: 320px){
   .second {
-    // display: flex;
-    // align-items: center;
-    // justify-content: center;
-    // height: 385px;
-    // padding-left: 19%;
     padding-top: 16em;
   }
   #padlock-red {
@@ -135,8 +130,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    // height: 385px;
-    // padding-left: 28%;
     padding-top: 16em;
   }
   #padlock-red {
@@ -169,9 +162,6 @@
 
 
 @media(min-width: 720px){
-  .second {
-    // padding-left: 8%;
-  }
   #padlock-red {
     width: 280px;
   }
@@ -199,9 +189,6 @@
 
 
 @media(min-width: 980px){
-  .second {
-    // padding-left: 9%;
-  }
   #padlock-red {
     width: 350px;
   }
@@ -224,11 +211,5 @@
   #feature-weight {
     right: 100px;
     top: 210px;
-  }
-}
-
-@media(min-width: 820px){
-  .second {
-    // padding-left: 3em;
   }
 }
