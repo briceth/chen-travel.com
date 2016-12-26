@@ -13,10 +13,10 @@
   position: relative;
   box-shadow: 0 12px 66px rgba(0, 0, 0, 0.1);
   &:hover {
+    @include transform(perspective(500px) translateZ(3px));
     box-shadow: 0 12px 66px rgba(0, 0, 0, 0.19);
     transition: ease all 0.5s;
-    transform: perspective(500px) translateZ(3px);
-    -webkit-transform: perspective(500px) translateZ(3px);
+    // transform: perspective(500px) translateZ(3px);
   }
 }
 .card-description {
