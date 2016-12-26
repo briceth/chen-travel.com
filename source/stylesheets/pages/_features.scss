@@ -1,7 +1,13 @@
-
 .second_page {
   min-height: 100vh;
   position:relative;
+}
+.second {
+  text-align: center;
+  height: 65vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .icone {
   position:absolute;
@@ -11,14 +17,6 @@
   height: 125px;
   width: 125px;
 }
-
-// @mixin transform($transforms) {
-//      -moz-transform: $transforms;
-//        -o-transform: $transforms;
-//       -ms-transform: $transforms;
-//   -webkit-transform: $transforms;
-//           transform: $transforms;
-// }
 
 #weight {
   right: 80px;
@@ -97,11 +95,11 @@
 
 @media(min-width: 320px){
   .second {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 385px;
-    padding-left: 3em;
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+    // height: 385px;
+    // padding-left: 19%;
     padding-top: 16em;
   }
   #padlock-red {
@@ -137,8 +135,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 385px;
-    padding-left: 12em;
+    // height: 385px;
+    // padding-left: 28%;
     padding-top: 16em;
   }
   #padlock-red {
@@ -172,7 +170,37 @@
 
 @media(min-width: 720px){
   .second {
-    padding-left: 12em;
+    // padding-left: 8%;
+  }
+  #padlock-red {
+    width: 280px;
+  }
+  .icone {
+    height: 125px;
+    width: 125px;
+  }
+   #feature-battery {
+    left: 105px;
+    bottom: 45px;
+  }
+  #feature-padlock {
+    right: 100px;
+    bottom: 45px;
+  }
+  #feature-tracking {
+    left: 90px;
+    top: 210px
+  }
+  #feature-weight {
+    right: 100px;
+    top: 210px;
+  }
+}
+
+
+@media(min-width: 980px){
+  .second {
+    // padding-left: 9%;
   }
   #padlock-red {
     width: 350px;
@@ -201,6 +229,6 @@
 
 @media(min-width: 820px){
   .second {
-    padding-left: 3em;
+    // padding-left: 3em;
   }
 }

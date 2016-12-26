@@ -34,7 +34,7 @@
 @media(min-width: 320px){
   .profile-component {
     padding-left: 0%;
- }
+  }
   .profile-picture {
     width: 266px;
     height: 240px;
@@ -45,11 +45,10 @@
   }
   #alban {
   padding-left: 27%;
-}
-
-#brice {
-  padding-left: 27%;
-}
+  }
+  #brice {
+    padding-left: 27%;
+  }
   #vladimir {
     padding-left: 27%;
   }
@@ -61,7 +60,7 @@
 @media(min-width: 700px){
   #alban {
   padding-left: 0%;
-}
+  }
 
   #brice {
     padding-left: 0%;
@@ -79,9 +78,9 @@
   }
   .profile-component {
     padding-left: 7%;
- }
- #vladimir {
-    padding-left: 0%;
+   }
+   #vladimir {
+      padding-left: 0%;
   }
   #patrick {
     padding-left: 0%;
