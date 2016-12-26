@@ -8,6 +8,10 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
+//compass for @include
+@import "compass/css3";
+@import "compass/css3/user-interface";
+
 @import "layout/footer";
 // @import "layout/scrolling-nav";
 @import "layout/navbar";

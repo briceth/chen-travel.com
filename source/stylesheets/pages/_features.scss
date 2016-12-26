@@ -12,14 +12,22 @@
   width: 125px;
 }
 
+// @mixin transform($transforms) {
+//      -moz-transform: $transforms;
+//        -o-transform: $transforms;
+//       -ms-transform: $transforms;
+//   -webkit-transform: $transforms;
+//           transform: $transforms;
+// }
+
 #weight {
   right: 80px;
   top: 80px;
   animation: animation1 2.5s ease 1 0s;
 
   @keyframes animation1 {
-    0% {transform: translateX(-400px) translateY(180px);}
-    100% {transform: translateX(0px) translateY(0px);}
+    0% { @include transform(translateX(-400px) translateY(180px)); }
+    100% { @include transform(translateX(0px) translateY(0px)); }
   }
 }
 #feature-weight {
@@ -33,8 +41,8 @@
   animation: animation4 2.5s ease 1 0s;
 
   @keyframes animation4 {
-    0% {transform: translateX(400px) translateY(180px);}
-    100% {transform: translateX(0px) translateY(0px);}
+    0% { @include transform(translateX(400px) translateY(180px)); }
+    100% { @include transform(translateX(0px) translateY(0px)); }
   }
 }
 #feature-tracking {
@@ -48,8 +56,8 @@
   animation: animation2 2.5s ease 1 0s;
 
   @keyframes animation2 {
-    0% {transform: translateX(-400px) translateY(-180px);}
-    100% {transform: translateX(0px) translateY(0px);}
+    0% { @include transform(translateX(-400px) translateY(-180px)); }
+    100% { @include transform(translateX(0px) translateY(0px)); }
   }
 }
 #feature-padlock {
@@ -63,8 +71,8 @@
   animation: animation3 2.5s ease 1 0s;
 
   @keyframes animation3 {
-    0% {transform: translateX(400px) translateY(-180px);}
-    100% {transform: translateX(0px) translateY(0px);}
+    0% { @include transform(translateX(400px) translateY(-180px)); }
+    100% { @include transform(translateX(0px) translateY(0px)); }
   }
 }
 #feature-battery {
@@ -77,10 +85,10 @@
   animation: animation5 1.5s ease 1 0s;
   @keyframes animation5 {
     0% {
-      transform: translateY(-50px);
+      @include transform(translateY(-50px));
     }
     100% {
-      transform: translateY(0px);
+      @include transform(translateY(0px));
     }
   }
 }
