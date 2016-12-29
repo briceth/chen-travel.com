@@ -48,6 +48,10 @@ body h1, h2, h3, p, span {
 }
 
 @media(min-width: 320px){
+  .first_page {
+    min-height: 77vh;
+    margin-top: 60px;
+  }
   .png-white {
     display: none;
   }
