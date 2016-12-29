@@ -22,14 +22,9 @@
 .card-description {
   position: absolute;
   bottom: 10px;
-  left: 85px;
+  left: 32px;
 }
-.card-description h2 {
-  font-size: 17px;
-}
-.card-description p {
-  font-size: 13px;
-  }
+
 
 @media(min-width: 320px){
   .profile-component {
@@ -42,6 +37,12 @@
   .card {
     height: 184px;
     width: 194px;
+  }
+  .card-description h2 {
+  font-size: 12px;
+  }
+  .card-description p {
+    font-size: 12px;
   }
   #alban {
   padding-left: 27%;
@@ -79,6 +80,12 @@
   .profile-component {
     padding-left: 7%;
    }
+   .card-description h2 {
+    font-size: 17px;
+  }
+  .card-description p {
+    font-size: 13px;
+  }
    #vladimir {
       padding-left: 0%;
   }
