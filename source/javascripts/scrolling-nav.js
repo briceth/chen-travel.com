@@ -1,17 +1,4 @@
 //jQuery for page scrolling feature - requires jQuery Easing plugin
-// $(function() {
-//     $("#nav ul li a[href^='#']").click(function(event) {
-//         event.preventDefault();
-
-//         var linkHref = $(this).attr('href');
-
-//         var $anchor = $(this);
-
-//         $('html, body').stop().animate({
-//             scrollTop: $($anchor.attr('href')).offset().top
-//         }, 1500 );
-//     });
-// });
 
 $(document).ready(function($) {
     $('.scroll').bind('click.scroll', function(e) {
@@ -19,6 +6,7 @@ $(document).ready(function($) {
 
         // Get the current target hash
         var target = this.hash;
+        console.log(target);
 
         // Animate the scroll bar action so its smooth instead of a hard jump
         $('html, body').stop().animate({
@@ -37,25 +25,3 @@ $(window).scroll(function() {
         $(".navbar-fixed-top").removeClass("top-nav-collapse");
     }
 });
-
-
-/////////////////////////////////////////////////////////
-// $("#nav ul li a[href^='#']").on('click', function(e) {
-
-//    // prevent default anchor click behavior
-//    e.preventDefault();
-
-//    // store hash
-//    var hash = this.hash;
-
-//    // animate
-//    $('html, body').animate({
-//        scrollTop: $(hash).offset().top
-//      },  function(){
-
-//        // when done, add hash to url
-//        // (default click behaviour)
-//        window.location.hash = hash;
-//      });
-
-// });
