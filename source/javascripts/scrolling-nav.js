@@ -1,15 +1,31 @@
 //jQuery for page scrolling feature - requires jQuery Easing plugin
-$(function() {
-    $("#nav ul li a[href^='#']").click(function(event) {
-        event.preventDefault();
+// $(function() {
+//     $("#nav ul li a[href^='#']").click(function(event) {
+//         event.preventDefault();
 
-        var linkHref = $(this).attr('href');
+//         var linkHref = $(this).attr('href');
 
-        var $anchor = $(this);
+//         var $anchor = $(this);
 
+//         $('html, body').stop().animate({
+//             scrollTop: $($anchor.attr('href')).offset().top
+//         }, 1500 );
+//     });
+// });
+
+$(document).ready(function($) {
+    $('.scroll').bind('click.scroll', function(e) {
+        e.preventDefault();
+
+        // Get the current target hash
+        var target = this.hash;
+
+        // Animate the scroll bar action so its smooth instead of a hard jump
         $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top
-        }, 1500 );
+            'scrollTop' : $(target).offset().top
+        }, 1000, 'swing', function() {
+            window.location.hash = target;
+        });
     });
 });
 
