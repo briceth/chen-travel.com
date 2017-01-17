@@ -2,6 +2,17 @@
 body h1, h2, h3, p, span {
   font-family: 'Montserrat', sans-serif;
 }
+.banner {
+  color: white;
+  text-align: center;
+  height: 100vh;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .sentence > h1 {
   -webkit-animation-duration: 1.7s;
@@ -18,13 +29,14 @@ body h1, h2, h3, p, span {
 
 .first_page {
   min-height: 100vh;
-  margin-top: 99px;
+  // margin-top: 99px;
 }
-.locki {
-  padding-left: 50px;
-}
+// .locki {
+//   padding-left: 50px;
+// }
 .sentence {
-  position: absolute;
+  height: 478px;
+  // position: absolute;
   h1 {
   position: relative;
   top: 170px;
@@ -63,7 +75,7 @@ body h1, h2, h3, p, span {
 @media(min-width: 768px){
   .first_page {
     min-height: 100vh;
-    margin-top: 99px;
+    // margin-top: 99px;
   }
   .png-white {
     display: block;
