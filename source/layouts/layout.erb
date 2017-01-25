@@ -34,7 +34,10 @@
   <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
     <%= partial "partials/navbar" %>
-    <%= yield %>
+      <div id="particles-js"></div>
+
+      <%= yield %>
+
     <div id='contact'>
     <%= partial "partials/footer" %>
     </div>
@@ -43,10 +46,10 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 
-
-    <script src="javascripts/vendor/particles.min.js"></script>
-    <script src="javascripts/vendor/particles.js"></script>
+<!--     <script src="javascripts/vendor/particles.min.js"></script>
+    <script src="javascripts/vendor/particles.js"></script> -->
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
     <!-- snipcart -->
@@ -54,7 +57,6 @@
   <script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="MzczM2Y1YmUtMDUzNy00ZjJjLWIyNTgtYjFmOWIyMGM2NDQ2NjM2MTgyNzA3NTI0MzA0Nzgx"></script>
 
   <link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" type="text/css" rel="stylesheet" />
-
 
   </body>
 </html>
