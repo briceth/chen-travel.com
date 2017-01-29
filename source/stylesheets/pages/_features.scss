@@ -1,6 +1,9 @@
 .second_page {
   min-height: 100vh;
   position:relative;
+  p {
+    font-size: 15px;
+  }
 }
 .second {
   text-align: center;
@@ -9,19 +12,18 @@
   align-items: center;
   justify-content: center;
 }
+.second > ul > li {
+  margin-right: 6%;
+}
 .icone {
-  position:absolute;
+  // position:absolute;
   border: 1px solid black;
   border-radius: 50%;
   padding: 20px;
   height: 125px;
   width: 125px;
+  margin-right: 2%;
 }
-
-// @mixin transform {
-//   -moz-transform
-//   -webkit-transform
-// }
 
 #weight {
   right: 80px;
