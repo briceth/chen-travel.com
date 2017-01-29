@@ -22,11 +22,18 @@ body h1, h2, p, span {
   -webkit-animation-duration: 1.7s;
   -webkit-animation-delay: 0.8s;
 }
-.sentence > ul > li {
-  -webkit-animation-duration: 1.7s;
+#weight-animation {
+   -webkit-animation-duration: 1.7s;
   -webkit-animation-delay: 01.1s;
 }
-
+#padlock-animation {
+ -webkit-animation-duration: 1.7s;
+  -webkit-animation-delay: 01.3s;
+}
+#tracking-animation {
+ -webkit-animation-duration: 1.7s;
+  -webkit-animation-delay: 01.5s;
+}
 .first_page {
   min-height: 100vh;
   margin-top: 99px;
