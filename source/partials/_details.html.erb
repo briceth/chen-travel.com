@@ -1,20 +1,61 @@
-<div class="row">
+<!-- <div class="row">
   <div class='col-xs-12 col-sm-8'>
 
-    <%= image_tag "dimension.png", width: "90%", height: "80%", id: "dimension-image" %>
+    <%#= image_tag "dimension.png", width: "90%", height: "80%", id: "dimension-image" %>
 
   </div>
     <div>
       <div class='display-caracteristique'>
-        <%= image_tag 'carac1.png',  class: 'box box1', width: "50%", height: "50%" %>
-        <%= image_tag 'carac2.png',  class: 'box box2', width: "50%", height: "50%" %>
-        <%= image_tag 'carac3.png',  class: 'box box3', width: "50%", height: "50%" %>
-        <%= image_tag 'carac4.png',  class: 'box box4', width: "50%", height: "50%" %>
-        <%= image_tag 'carac5.png',  class: 'box box5', width: "50%", height: "50%" %>
-        <%= image_tag 'carac5.png',  class: 'box box6', width: "50%", height: "50%" %>
+        <%#= image_tag 'carac1.png',  class: 'box box1', height: "50%" %>
+        <%#= image_tag 'carac2.png',  class: 'box box2', height: "50%" %>
+        <%#= image_tag 'carac3.png',  class: 'box box3', height: "50%" %>
+        <%#= image_tag 'carac4.png',  class: 'box box4', height: "50%" %>
+        <%#= image_tag 'carac5.png',  class: 'box box5', height: "50%" %>
+        <%#= image_tag 'carac5.png',  class: 'box box6', height: "50%" %>
       </div>
 
     </div>
-</div>
+</div> -->
 
+<div class='row'>
+
+  <div class='col-xs-12 col-md-push-7 col-md-6 col-lg-push-5 col-lg-7'>
+    <div class='row'>
+      <div class='col-sm-5 col-sm-offset-1'>
+        <div class='spec text-center'>
+          <div class='spec-png'><%= image_tag 'carac1.png',  class: 'box box1', width: "75%" %></div>
+          <div class='spec-description'><p>LED Light</p></div>
+        </div>
+        <div class='spec text-center'>
+          <div class='spec-png'><%= image_tag 'carac2.png',  class: 'box box2', width: "75%" %></div>
+          <div class='spec-description'><p>EN 12320 Resistance Norm</p></div>
+        </div>
+        <div class='spec text-center'>
+          <div class='spec-png'><%= image_tag 'carac3.png',  class: 'box box3', width: "75%" %></div>
+          <div class='spec-description'><p>IP 64 Waterproofing</p></div>
+        </div>
+      </div>
+      <div class='col-sm-5 col-sm-offset-1'>
+        <div class='spec text-center'>
+          <div class='spec-png'><%= image_tag 'carac4.png',  class: 'box box4', width: "75%" %></div>
+          <div class='spec-description'><p>Android Compatible</p></div>
+        </div>
+        <div class='spec text-center'>
+          <div class='spec-png'><%= image_tag 'carac5.png',  class: 'box box5', width: "75%" %></div>
+          <div class='spec-description'><p>IOS Compatible</p></div>
+        </div>
+        <div class='spec text-center'>
+          <div class='spec-png'><%= image_tag 'carac5.png',  class: 'box box5', width: "75%" %></div>
+          <div class='spec-description'><p>TSA Norme</p></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class='col-xs-12 col-md-pull-5 col-md-6 col-lg-pull-7 col-lg-5 specs-img-container'>
+    <%= image_tag "dimension.png", width: "120%", height: "80%", id: "dimension-image" %>
+  </div>
+
+</div>
 
