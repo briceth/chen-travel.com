@@ -4,11 +4,12 @@
 // Google fonts
 @import url('https://fonts.googleapis.com/css?family=Orbitron');
 @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
-
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-$base-font: "font-family: 'Montserrat', sans-serif;";
-$header-font: "font-family: 'Montserrat', sans-serif;";
+$base-font: 'Ubuntu Mono', monospace;
+$header-font: 'Ubuntu Mono', monospace;
+
 
 // Local fonts (uncomment following lines)
 // @font-face {
@@ -21,7 +22,9 @@ $header-font: "font-family: 'Montserrat', sans-serif;";
 // $my-font: "Font Name";
 
 // Font-size and line-height
-$base-size: 16px;
+$base-size: 17px;
+$large-base-size: 20px;
+
 $base-height: 1.4;
 
 /* -------------------------------------

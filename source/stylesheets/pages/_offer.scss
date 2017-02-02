@@ -1,11 +1,21 @@
+@import "./config/variables";
+
 .offer {
   min-height: 100vh;
 }
 
 .paragraphe {
-  width: 73%;
-  padding-left: 15%;
+  width: 77%;
+  padding-left: 4%;
   p {
-    font-size: 15px;
+    font-size: $base-size;
+    font-family: $base-font;
+    line-height: $base-height;
   }
+}
+#middle-padlock {
+  padding-top: 3%;
+}
+#p-middle-padlock {
+  padding-top: 5%;
 }

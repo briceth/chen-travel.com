@@ -1,7 +1,11 @@
+@import "./config/variables";
+
 .about {
-  min-height: 100vh;
+  min-height: 110vh;
   padding-top: 10%;
-  font-size: 15px;
+  p {
+  line-height: 1.7;
+  font-size: 17px;
   word-spacing: 7px;
-  line-height: 189%;
+  }
 }

@@ -1,6 +1,8 @@
+@import "./config/variables";
+
 .navbar {
-  font-family: 'Montserrat', sans-serif;
+  font-family: $base-font;
 }
 .navbar-right {
-  font-size: 15px;
+  font-size: $base-size;
 }
