@@ -1,9 +1,9 @@
 .padlock-view {
   height: 100vh;
+  padding-top: 7%;
 }
 
 .padlock-icone p {
-  padding-left: 63px;
   font-size: 20px;
 }
 .button-order {
@@ -21,8 +21,8 @@
     margin-bottom: 6em;
     padding-left: 16px;
   }
-  .padlock-icone {
-    padding-left: 3em;
+  .padlock-icone p {
+    padding-left: 39px;
   }
 }
 @media(min-width: 768px){
@@ -36,5 +36,8 @@
   }
   .padlock-icone {
     padding-left: 0;
+  }
+  .padlock-icone p {
+    padding-left: 63px;
   }
 }

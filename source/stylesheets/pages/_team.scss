@@ -35,8 +35,10 @@
     height: 240px;
   }
   .card {
-    height: 184px;
-    width: 194px;
+    max-width: 78%;
+    height: 150px;
+    // height: 184px;
+    // width: 194px;
   }
   .card-description h2 {
   font-size: 12px;
