@@ -7,5 +7,12 @@
   line-height: 1.7;
   font-size: 17px;
   word-spacing: 7px;
+  margin-bottom: 5%;
+  }
+}
+
+@media(max-width: 450px){
+  .about {
+    padding-top: 15%;
   }
 }
