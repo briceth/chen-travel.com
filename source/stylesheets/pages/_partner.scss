@@ -1,50 +1,7 @@
 .partner {
   min-height: 90vh;
+  padding-top: 5%;
 }
-.partner-component {
-  h3 {
-    padding-left: 60px;
-  }
-}
-.partner-picture {
-  padding-top: 194px;
-}
-
-@media(min-width: 320px){
-  #sophia {
-    width: 90px;
-  }
-  #sigfox {
-    width: 100px;
-  }
-  #pndi {
-    width: 300px;
-  }
-  .partner {
-    padding-left: 2em;
-    padding-top: 7em;
-    h2 {
-      padding-left: 90px;
-    }
-  }
-
-}
-
-@media(min-width: 768px){
-  #sophia {
-    width: 150px;
-  }
-  #sigfox {
-    width: 150px;
-  }
-  #pndi {
-    width: 390px;
-  }
-  .partner {
-    padding-left: 0;
-    padding-top: 1em;
-    h2 {
-      padding-left: 120px;
-    }
-  }
+.title-partner {
+  padding-bottom: 3%;
 }
