@@ -1,8 +1,11 @@
 @import "./config/variables";
 
-// .navbar {
-//   font-family: $base-font;
-// }
 .navbar-right {
   font-size: $base-size;
+}
+
+#hover {
+  &:hover {
+    color: black;
+  }
 }

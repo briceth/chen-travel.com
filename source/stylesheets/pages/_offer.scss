@@ -2,6 +2,7 @@
 
 .offer {
   min-height: 100vh;
+  padding-left:5%;
 }
 
 .paragraphe {
@@ -18,4 +19,11 @@
 }
 #p-middle-padlock {
   padding-top: 5%;
+}
+
+@media(max-width: 400px){
+  .offer {
+    padding-left:15%;
+    margin-bottom: 30px;
+  }
 }
