@@ -5,3 +5,15 @@
 .spec-description p {
   font-size: 15px;
 }
+
+@media(max-width: 900px) {
+  #dimension-image {
+    width: 100%;
+  }
+}
+
+@media(min-width: 900px) {
+  .carac-right {
+    padding-right: 6%;
+  }
+}
