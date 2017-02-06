@@ -2,6 +2,20 @@
   min-height: 90vh;
   padding-top: 5%;
 }
-.title-partner {
-  padding-bottom: 3%;
+.title-partner h2 {
+  margin-bottom: 5%;
+}
+
+@media(max-width: 400px) {
+  .partner {
+    min-height: 50vh;
+    h2 {
+      font-size: 20px;
+    }
+  }
+}
+@media(min-width: 900px) {
+  .title-partner h2 {
+    padding-left: 6%;
+  }
 }
