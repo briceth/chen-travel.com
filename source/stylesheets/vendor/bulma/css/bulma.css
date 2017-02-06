@@ -3783,7 +3783,7 @@ a.nav-item.is-tab.is-active {
 .nav {
   align-items: stretch;
   background-color: white;
-  display: flex;
+  /*display: flex;*/
   min-height: 3.5rem;
   position: relative;
   text-align: center;
