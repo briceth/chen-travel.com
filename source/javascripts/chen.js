@@ -8,6 +8,7 @@
 
 //     $('.button').css('display', 'none');
 
+
 //    if(heure >= 0 && (heure < 11 && minute == 50)) {
 //       $('.button').css('display', 'block');
 //          // $('.button').css('opacity', '1');

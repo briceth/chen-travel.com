@@ -3,9 +3,22 @@
 .navbar-right {
   font-size: $base-size;
 }
+#navbar-right-id {
+  background-color: #222222;
+}
 
 #hover {
   &:hover {
-    color: black;
+    color: white;
   }
 }
+.pt-navbar-divider {
+  margin: 0 10px;
+  border-left: 1px solid rgba(16, 22, 26, 0.15);
+  height: 20px;
+  border-left-color: rgba(255, 255, 255, 0.15);
+}
+
+#divider {
+    padding-top: 13.5px;
+  }
