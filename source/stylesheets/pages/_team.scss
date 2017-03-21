@@ -1,3 +1,104 @@
+// .card {
+//   margin-bottom: 43px;
+//   border-radius: 3%;
+//   text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+//   background-size: cover !important;
+//   color: white;
+//   position: relative;
+//   box-shadow: 0 12px 66px rgba(0, 0, 0, 0.1);
+//   &:hover {
+//     @include transform(perspective(500px) translateZ(3px));
+//     box-shadow: 0 12px 66px rgba(0, 0, 0, 0.19);
+//     transition: ease all 0.5s;
+//     // transform: perspective(500px) translateZ(3px);
+//   }
+// }
+// .card-description {
+//   position: absolute;
+//   bottom: 10px;
+//   left: 32px;
+// }
+
+
+// @media(min-width: 320px){
+//   .card {
+//     max-width: 78%;
+//     height: 150px;
+//     // height: 184px;
+//     // width: 194px;
+//   }
+//   .card-description h2 {
+//   font-size: 12px;
+//   }
+//   .card-description p {
+//     font-size: 12px;
+//   }
+// }
+// @media(min-width: 470px) {
+//   .card {
+//   height: 193px;
+
+//   }
+// }
+// @media(min-width: 550px) {
+//   .card {
+//   height: 160px;
+//   }
+// }
+
+// @media(min-width: 700px){
+//   #alban {
+//     padding-left: 0%;
+//   }
+
+//   #brice {
+//     padding-left: 0%;
+//   }
+// }
+// @media(max-width: 768px){
+//   #team {
+//     padding-top: 71%;
+//   }
+// }
+
+// @media(min-width: 768px){
+//   #team {
+//     padding-top: 0%;
+//   }
+//   .card {
+//     height: 284px;
+//     width: 294px;
+//   }
+//    .card-description h2 {
+//     font-size: 17px;
+//   }
+//   .card-description p {
+//     font-size: 13px;
+//   }
+//    #vladimir {
+//       padding-left: 0%;
+//   }
+//   #patrick {
+//     padding-left: 0%;
+//   }
+// }
+
+// @media(min-width: 990px){
+//    #alban {
+//     padding-left: 30%;
+//   }
+
+//   #brice {
+//     padding-left: 30%;
+//   }
+// }
+//
+.profile {
+  min-height: 100vh;
+}
+.profile-component {
+  height: 744px;
+}
 .card {
   margin-bottom: 43px;
   border-radius: 3%;
@@ -21,11 +122,16 @@
 
 
 @media(min-width: 320px){
+  .profile-component {
+    padding-left: 0%;
+  }
+  .profile-picture {
+    width: 266px;
+    height: 240px;
+  }
   .card {
-    max-width: 78%;
-    height: 150px;
-    // height: 184px;
-    // width: 194px;
+    height: 184px;
+    width: 194px;
   }
   .card-description h2 {
   font-size: 12px;
@@ -33,42 +139,42 @@
   .card-description p {
     font-size: 12px;
   }
-}
-@media(min-width: 470px) {
-  .card {
-  height: 193px;
-
+  #alban {
+  padding-left: 27%;
   }
-}
-@media(min-width: 550px) {
-  .card {
-  height: 160px;
+  #brice {
+    padding-left: 27%;
+  }
+  #vladimir {
+    padding-left: 27%;
+  }
+  #patrick {
+    padding-left: 27%;
   }
 }
 
 @media(min-width: 700px){
   #alban {
-    padding-left: 0%;
+  padding-left: 0%;
   }
 
   #brice {
     padding-left: 0%;
   }
 }
-@media(max-width: 768px){
-  #team {
-    padding-top: 71%;
-  }
-}
 
 @media(min-width: 768px){
-  #team {
-    padding-top: 0%;
+  .profile-picture {
+    width: 300px;
+    height: 300px;
   }
   .card {
     height: 284px;
     width: 294px;
   }
+  .profile-component {
+    padding-left: 7%;
+   }
    .card-description h2 {
     font-size: 17px;
   }
